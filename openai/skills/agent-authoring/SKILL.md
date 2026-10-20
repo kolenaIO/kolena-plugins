@@ -1,0 +1,1 @@
+../../../claude/skills/agent-authoring/SKILL.md

@@ -1,0 +1,35 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "kolena",
+  "version": "0.1.0",
+  "description": "Build and improve Kolena Agents, process documents, and review results using your Kolena account.",
+  "author": {
+    "name": "Kolena",
+    "url": "https://www.kolena.com"
+  },
+  "homepage": "https://www.kolena.com",
+  "license": "LicenseRef-Kolena-Proprietary",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Kolena",
+        "shortDescription": "Build and use Kolena Agents",
+        "longDescription": "Build and refine Kolena Agent Prompts, process documents, and review structured results from ChatGPT or Codex using your own Kolena permissions.",
+        "developerName": "Kolena",
+        "category": "Data & Analytics",
+        "capabilities": ["Read", "Write"],
+        "websiteURL": "https://www.kolena.com",
+        "supportURL": "https://www.kolena.com/contact/",
+        "privacyPolicyURL": "https://www.kolena.com/privacy-policy/",
+        "termsOfServiceURL": "https://www.kolena.com/website-terms/",
+        "logo": "./assets/kolena-logo.svg",
+        "composerIcon": "./assets/kolena-logo.svg",
+        "defaultPrompt": [
+          "Find my Kolena Agents and help me choose one for these documents.",
+          "Send these documents to a Kolena Agent and report the results.",
+          "Help me improve this Kolena Agent using its Run Results."
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "kolena",
+  "displayName": "Kolena",
+  "version": "0.1.0",
+  "description": "Run documents through your Kolena Agents from a conversation, follow processing, and read the results, using your own Kolena sign-in and permissions.",
+  "author": {
+    "name": "Kolena",
+    "url": "https://www.kolena.com"
+  },
+  "license": "LicenseRef-Kolena-Proprietary"
+}

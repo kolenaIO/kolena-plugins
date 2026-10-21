@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "kolena": {
+      "type": "http",
+      "url": "https://agents-api.kolena.com/mcp"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "kolena",
+  "owner": {
+    "name": "Kolena",
+    "url": "https://www.kolena.com"
+  },
+  "metadata": {
+    "description": "Kolena plugins for Claude: run documents through Kolena Agents and design their Prompts."
+  },
+  "plugins": [
+    {
+      "name": "kolena",
+      "source": "./plugins/kolena",
+      "description": "Run documents through your Kolena Agents from a conversation, follow processing, and read the results, using your own Kolena sign-in and permissions."
+    }
+  ]
+}

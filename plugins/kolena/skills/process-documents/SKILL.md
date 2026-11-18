@@ -39,10 +39,12 @@ An unreachable connection is not evidence that the Account has no Agents or Runs
 
 6. Read the output with `kolena_list_run_results` and report what each Prompt returned by name, not as raw JSON.
    Distinguish a Prompt that failed (`error`), one whose run conditions were not met (`skipped`), and one that found
-   nothing (`null` with neither). Where a result carries `user_input`, `value` is a person's correction rather than
-   the Agent's own output. Cite the document and page a result points to when it supplies them; never invent a
-   citation. If the user wants documents like these processed automatically as they arrive, or wants Results as a
-   filled-in report, mention that an Integration or an Output Template does that, set up in Kolena.
+   nothing (`null` with neither). A missing value can also arrive as text the Prompt's instruction asks for (for
+   example, "Not stated"); report it as missing, not as a found value. Where a result carries `user_input`, `value` is
+   a person's correction rather than the Agent's own output. Cite the document and page a result points to when it
+   supplies them; never invent a citation. If the user wants documents like these processed automatically as they
+   arrive, or wants Results as a filled-in report, mention that an Integration or an Output Template does that, set up
+   in Kolena.
 
 For a past Run, find it with `kolena_list_runs` — by document name, submitter, date, or what the Agent found — and
 read its existing Results first. Use `kolena_run_prompts` only when the user's task calls for a Prompt to be computed
